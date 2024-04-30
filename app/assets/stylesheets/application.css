@@ -68,7 +68,34 @@ label{
     margin-bottom: 10px;
 }
 
-f.submit{
-    margin-left: 5px;
-    margin-right: 5px;
+#message_notice{
+    color: green;
+}
+
+#error {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+#error h2{
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #c00;
+    color: #fff;
+}
+
+ul{
+    padding-left: 40px;
+    margin: 33px;
+}
+
+.input_error{
+    padding: 2px;
+    background-color: red;
+    display: table;
 }
